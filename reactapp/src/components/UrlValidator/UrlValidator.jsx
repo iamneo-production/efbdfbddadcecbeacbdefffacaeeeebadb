@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import isURL from 'validator/lib/isURL';
+
 
 function validateUrl(url) {
   var pattern = new RegExp(
